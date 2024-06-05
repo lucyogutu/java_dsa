@@ -7,9 +7,13 @@ public class Main {
         System.out.println("Hello and welcome!");
 
         String s = "racecar";
-        String x = "acdea";
+        int [] x = {1, 2, 3, 4, 6, 7, 9, 10};
 
-        System.out.println(Palindrome.checkIfPalindrome(s));
+//        palindrome
+        System.out.println( "Palindrome is: " + TwoPointer.checkIfPalindrome(s));
+
+//        two sum
+        System.out.println(TwoPointer.checkTarget(x));
 
     }
 
